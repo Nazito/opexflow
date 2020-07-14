@@ -313,7 +313,7 @@ hr {
 }
 
 .logo-single {
-  width: 110px;
+  width: 150px;
   height: 35px;
   background: url($logoPath) no-repeat;
   background-position: center center;
@@ -1698,8 +1698,10 @@ button {
   }
 
   .navbar-logo {
-    width: 110px;
-    height: 35px;
+    width: 150px;
+    height: 42px;
+    background-size: contain;
+
     position: absolute;
     left: 0;
     right: 0;
@@ -1721,11 +1723,11 @@ button {
     }
 
     @include respond-below(sm) {
-      width: 80px;
+      width: 130px;
     }
 
     @include respond-below(xxs) {
-      width: 20px;
+      width: 100px;
     }
   }
 
